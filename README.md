@@ -1,10 +1,10 @@
-# 🤖 React ChatGPT Widget
+ React ChatGPT Widget
 
 **Add a smart AI chatbot to your website in just 2 minutes!**
 
 This package gives you a floating chat button that opens into a full AI assistant powered by ChatGPT. Perfect for customer support, FAQ answers, or just helping your visitors.
 
-## 🎯 What is this?
+ What is this?
 
 Imagine having a helpful AI assistant that sits in the corner of your website, ready to answer questions 24/7. That's exactly what this widget does!
 
@@ -14,7 +14,7 @@ Imagine having a helpful AI assistant that sits in the corner of your website, r
 - **Customizable** - change colors, position, and behavior
 - **No server needed** - works entirely in the browser
 
-## 🚀 Quick Start (2 minutes)
+##  Quick Start (2 minutes)
 
 ### Step 1: Install the package
 ```bash
@@ -46,9 +46,9 @@ function App() {
 }
 ```
 
-**That's it!** 🎉 Your website now has an AI chatbot!
+That's it! Your website now has an AI chatbot!
 
-## 🎨 What it looks like
+ What it looks like
 
 When someone visits your website, they'll see:
 1. A chat button in the bottom-right corner
@@ -56,7 +56,7 @@ When someone visits your website, they'll see:
 3. Users can ask questions and get AI responses
 4. The chat remembers the conversation
 
-## ⚙️ Customization Options
+##  Customization Options
 
 ### Change the position
 ```jsx
@@ -128,7 +128,7 @@ function App() {
 }
 ```
 
-## 💡 Use Cases
+##  Use Cases
 
 - **Customer Support**: Answer common questions automatically
 - **FAQ Bot**: Help users find information quickly
@@ -137,7 +137,7 @@ function App() {
 - **Booking Assistant**: Help with appointments or reservations
 - **Educational Tool**: Explain concepts or provide tutorials
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 - **API key**: Store it in environment variables for production
 - **Data**: Chat history is stored locally in the user's browser
@@ -155,7 +155,7 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
 />
 ```
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### "Widget doesn't appear"
 - Make sure you have a valid OpenAI API key
@@ -172,7 +172,7 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
 - Make sure the user grants microphone permission
 - Check browser compatibility
 
-## 📱 Browser Support
+##  Browser Support
 
 - ✅ Chrome (recommended)
 - ✅ Firefox
@@ -180,24 +180,11 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
 - ✅ Edge
 - ⚠️ Voice input needs HTTPS in production
 
-## 💰 Cost
+##  Cost
 
 - **Widget**: Free to use
 - **OpenAI API**: Pay per use (very cheap)
-  - ~$0.002 per 1K tokens (about 750 words)
-  - Typical conversation: $0.01-0.05
-  - 1000 conversations ≈ $10-50
 
-## 🤝 Need Help?
 
-- **Documentation**: Check the examples above
-- **Issues**: Create a GitHub issue
-- **Questions**: Ask in the GitHub discussions
 
-## 📄 License
 
-MIT License - you can use this in any project, commercial or personal.
-
----
-
-**Made with ❤️ for React developers who want to add AI to their websites easily!** 
