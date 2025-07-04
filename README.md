@@ -1,19 +1,19 @@
-# 🤖 React ChatGPT Widget
+ React ChatGPT Widget
 
-**Add a smart AI chatbot to your website in just 2 minutes!**
+Add a smart AI chatbot to your website in just 2 minutes!
 
 This package gives you a floating chat button that opens into a full AI assistant powered by ChatGPT. Perfect for customer support, FAQ answers, or just helping your visitors.
 
-## 📦 **Published NPM Package**
+Published NPM Package
 
 This project is published as an NPM package and is ready to use in any React project!
 
-- **Package Name**: `react-chatgpt-widget`
-- **NPM URL**: https://www.npmjs.com/package/react-chatgpt-widget
-- **Current Version**: `1.0.1`
-- **GitHub Repository**: https://github.com/Manishdangi1/react-chatgpt-widget
+- Package Name: `react-chatgpt-widget`
+- NPM URL: https://www.npmjs.com/package/react-chatgpt-widget
+- Current Version: `1.0.1`
+- GitHub Repository: https://github.com/Manishdangi1/react-chatgpt-widget
 
-## 🎯 What is this?
+ What is this?
 
 Imagine having a helpful AI assistant that sits in the corner of your website, ready to answer questions 24/7. That's exactly what this widget does!
 
@@ -24,20 +24,20 @@ Imagine having a helpful AI assistant that sits in the corner of your website, r
 - **No server needed** - works entirely in the browser
 - **Published on NPM** - ready to install and use immediately
 
-## 🚀 Quick Start (2 minutes)
+ Quick Start (2 minutes)
 
-### Step 1: Install the package
+ Step 1: Install the package
 ```bash
 npm install react-chatgpt-widget
 ```
 
-### Step 2: Get an OpenAI API key
+ Step 2: Get an OpenAI API key
 1. Go to [OpenAI Platform](https://platform.openai.com/api-keys)
 2. Sign up or log in
 3. Click "Create new secret key"
 4. Copy the key (starts with `sk-`)
 
-### Step 3: Add to your React app
+ Step 3: Add to your React app
 ```jsx
 import { ChatGPTWidget } from 'react-chatgpt-widget';
 
@@ -56,9 +56,9 @@ function App() {
 }
 ```
 
-**That's it!** 🎉 Your website now has an AI chatbot!
+That's it! Your website now has an AI chatbot!
 
-## 🎨 What it looks like
+ What it looks like
 
 When someone visits your website, they'll see:
 1. A chat button in the bottom-right corner
@@ -66,9 +66,9 @@ When someone visits your website, they'll see:
 3. Users can ask questions and get AI responses
 4. The chat remembers the conversation
 
-## ⚙️ Customization Options
+ Customization Options
 
-### Change the position
+ Change the position
 ```jsx
 <ChatGPTWidget 
   apiKey="your-key"
@@ -76,7 +76,7 @@ When someone visits your website, they'll see:
 />
 ```
 
-### Change the theme
+ Change the theme
 ```jsx
 <ChatGPTWidget 
   apiKey="your-key"
@@ -84,7 +84,7 @@ When someone visits your website, they'll see:
 />
 ```
 
-### Add voice input
+ Add voice input
 ```jsx
 <ChatGPTWidget 
   apiKey="your-key"
@@ -92,7 +92,7 @@ When someone visits your website, they'll see:
 />
 ```
 
-### Add typing animation
+ Add typing animation
 ```jsx
 <ChatGPTWidget 
   apiKey="your-key"
@@ -100,7 +100,7 @@ When someone visits your website, they'll see:
 />
 ```
 
-### Customize the AI's personality
+ Customize the AI's personality
 ```jsx
 <ChatGPTWidget 
   apiKey="your-key"
@@ -108,7 +108,7 @@ When someone visits your website, they'll see:
 />
 ```
 
-## 🔧 Complete Example
+ Complete Example
 
 ```jsx
 import { ChatGPTWidget } from 'react-chatgpt-widget';
@@ -138,7 +138,7 @@ function App() {
 }
 ```
 
-## 💡 Use Cases
+ Use Cases
 
 - **Customer Support**: Answer common questions automatically
 - **FAQ Bot**: Help users find information quickly
@@ -147,13 +147,13 @@ function App() {
 - **Booking Assistant**: Help with appointments or reservations
 - **Educational Tool**: Explain concepts or provide tutorials
 
-## 🔒 Security & Privacy
+ Security & Privacy
 
 - **API key**: Store it in environment variables for production
 - **Data**: Chat history is stored locally in the user's browser
 - **No server**: All processing happens through OpenAI's secure API
 
-### Environment Variables (Recommended)
+ Environment Variables (Recommended)
 ```bash
 # Create a .env file
 REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
@@ -165,24 +165,24 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
 />
 ```
 
-## 🛠️ Troubleshooting
+ Troubleshooting
 
-### "Widget doesn't appear"
+ "Widget doesn't appear"
 - Make sure you have a valid OpenAI API key
 - Check that the component is imported correctly
 - Verify your React app is running
 
-### "API key error"
+ "API key error"
 - Ensure your OpenAI account has credits
 - Check that the API key is correct
 - Make sure you're using the right key format (starts with `sk-`)
 
-### "Voice doesn't work"
+ "Voice doesn't work"
 - Voice input requires HTTPS in production
 - Make sure the user grants microphone permission
 - Check browser compatibility
 
-## 📱 Browser Support
+ Browser Support
 
 - ✅ Chrome (recommended)
 - ✅ Firefox
@@ -190,7 +190,7 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
 - ✅ Edge
 - ⚠️ Voice input needs HTTPS in production
 
-## 💰 Cost
+ Cost
 
 - **Widget**: Free to use
 - **OpenAI API**: Pay per use (very cheap)
@@ -198,7 +198,7 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
   - Typical conversation: $0.01-0.05
   - 1000 conversations ≈ $10-50
 
-## 📦 Package Information
+ Package Information
 
 - **NPM Package**: [react-chatgpt-widget](https://www.npmjs.com/package/react-chatgpt-widget)
 - **Version**: 1.0.1
@@ -207,19 +207,19 @@ REACT_APP_OPENAI_API_KEY=sk-your-actual-api-key
 - **Bundle Size**: ~15KB (very lightweight)
 - **Dependencies**: React 16.8+, react-markdown, remark-gfm
 
-## 🤝 Need Help?
+ Need Help?
 
 - **Documentation**: Check the examples above
 - **NPM Package**: https://www.npmjs.com/package/react-chatgpt-widget
 - **GitHub Issues**: https://github.com/Manishdangi1/react-chatgpt-widget/issues
 - **Questions**: Ask in the GitHub discussions
 
-## 📄 License
+ License
 
 MIT License - you can use this in any project, commercial or personal.
 
 ---
 
-**Made with ❤️ for React developers who want to add AI to their websites easily!**
 
-**📦 Available on NPM: https://www.npmjs.com/package/react-chatgpt-widget**
+
+ Available on NPM: https://www.npmjs.com/package/react-chatgpt-widget**
